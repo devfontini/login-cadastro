@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background: url('https://img.freepik.com/vetores-gratis/perspectiva-da-rua-japonesa-em-luzes-neon_52683-44988.jpg?t=st=1738697960~exp=1738701560~hmac=139ab68d61b4306a540fe99128f339df178426b6d1a1c740f4e7c74d0ba5d87d&w=740') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .form-box {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    border-radius: 8px;
+    width: 300px;
+    color: #fff;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .input-box {
+    margin-bottom: 15px;
+  }
+  
+  .input-box input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background: #fff;
+    color: #333;
+  }
+  
+  .btn {
+    width: 100%;
+    padding: 10px;
+    background: #ff6f61;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px; /* Adiciona espaçamento abaixo do botão */
+  }
+  
+  .btn:hover {
+    background: #ff4e3a;
+  }
+  
+  p {
+    text-align: center;
+    margin-top: 10px; /* Adiciona espaçamento superior no texto */
+  }
+  
+  a {
+    color: #ff6f61;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
